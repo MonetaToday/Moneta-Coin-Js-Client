@@ -5,10 +5,10 @@ const { Decimal } = require("@cosmjs/math");
 
 const RPC_URL = "http://testnet.rpc1.monetacoin.moneta.today";
 const RECEPIENT = "moneta1m5jkx92j9j4r78z8fc27fy4pkq7msmyltqkmh3";
-const MNEMONIC = "seed";
+const MNEMONIC = "mnemonic";
 const AMOUNT = 100;
 const GAS_PRICE = 1;
-const GAS_WANTED = 100000;
+const GAS_WANTED = 1000000;
 
 const sendExample = async () => {
   const wallet = await DirectSecp256k1HdWallet.fromMnemonic(
