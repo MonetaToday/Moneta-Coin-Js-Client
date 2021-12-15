@@ -9,7 +9,7 @@ const createNewWalletExample = async () => {
 
   const [account] = await wallet.getAccounts();
 
-  console.log(account);
+  console.log(wallet.mnemonic, account);
   return account;
 };
 
