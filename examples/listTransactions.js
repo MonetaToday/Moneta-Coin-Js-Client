@@ -1,6 +1,6 @@
 const { SigningStargateClient, logs } = require("@cosmjs/stargate");
 
-const RPC_URL = "http://testnet.rpc1.monetacoin.moneta.today";
+const RPC_URL = "RPC URL";
 const ADDRESS = "moneta1m5jkx92j9j4r78z8fc27fy4pkq7msmyltqkmh3";
 
 const listTransactionsExample = async () => {

@@ -3,10 +3,10 @@ const { assertIsBroadcastTxSuccess, SigningStargateClient, GasPrice, calculateFe
 const { stringToPath } = require("@cosmjs/crypto");
 const { Decimal } = require("@cosmjs/math");
 
-const RPC_URL = "http://testnet.rpc1.monetacoin.moneta.today";
-const RECEPIENT = "moneta1m5jkx92j9j4r78z8fc27fy4pkq7msmyltqkmh3";
+const RPC_URL = "RPC URL";
+const RECEPIENT = "moneta1t8u7lu29xp0426sx4gqy393lg04kjt7wgg6gvy";
 const MNEMONIC = "mnemonic";
-const AMOUNT = 100;
+const AMOUNT = 14049764690;
 const GAS_PRICE = 1;
 const GAS_WANTED = 1000000;
 

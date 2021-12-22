@@ -1,6 +1,6 @@
 const { SigningStargateClient } = require("@cosmjs/stargate");
 
-const RPC_URL = "http://testnet.rpc1.monetacoin.moneta.today";
+const RPC_URL = "RPC URL";
 
 const getTotalSupplyExample = async () => {
   const client = await SigningStargateClient.connectWithSigner(RPC_URL);
